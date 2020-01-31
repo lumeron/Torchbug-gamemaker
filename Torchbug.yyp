@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "8a2a3ac6-e5a6-4609-8366-370cbef4c703",
+            "Value": {
+                "id": "7fcdd43c-ffe5-45e7-be08-d16bcbcfb0f2",
+                "resourcePath": "scripts\\script_PlayerState_Interacting\\script_PlayerState_Interacting.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "8c19ae61-5d6e-4e6a-91a0-1321860496fd",
             "Value": {
                 "id": "677f40fe-b038-45aa-b342-559e78da29af",
@@ -172,14 +180,6 @@
                 "id": "9bf97d39-520d-4e0e-929c-d869009d61d3",
                 "resourcePath": "options\\tvos\\options_tvos.yy",
                 "resourceType": "GMtvOSOptions"
-            }
-        },
-        {
-            "Key": "9675756c-e424-4597-a06d-de0db13db2ef",
-            "Value": {
-                "id": "bcc387b7-cd8a-430c-9ba4-daaa068e9840",
-                "resourcePath": "sprites\\sPlayer1_pending\\sPlayer1_pending.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -319,6 +319,14 @@
             }
         },
         {
+            "Key": "eb72b6ee-46c0-4916-b754-74896da72369",
+            "Value": {
+                "id": "1321dfda-64f4-49d5-aaa2-0b7a16c40d71",
+                "resourcePath": "scripts\\animation_end\\animation_end.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "ee540860-d056-4962-b549-e8c06c2a5266",
             "Value": {
                 "id": "00764921-4228-4f4a-ba05-1a6e0f11bd30",
@@ -360,7 +368,9 @@
         }
     ],
     "script_order": [
-        "c82e0d17-35de-4e51-bd1f-d6b13b5c7ad9"
+        "c82e0d17-35de-4e51-bd1f-d6b13b5c7ad9",
+        "8a2a3ac6-e5a6-4609-8366-370cbef4c703",
+        "eb72b6ee-46c0-4916-b754-74896da72369"
     ],
     "tutorial": ""
 }

@@ -9,7 +9,7 @@ global.current_oxygen = 200;
 // setup playerstate enum
 enum PLAYERSTATE {
 	FREE,
-	ACTIVATING,
+	INTERACTING,
 	DROPPING,
 	DYING,
 	DEAD

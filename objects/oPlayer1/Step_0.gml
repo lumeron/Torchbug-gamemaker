@@ -12,18 +12,15 @@ if (keyboard_check_pressed(vk_escape)){ game_end(); }
 
 switch (state) {
 	case PLAYERSTATE.FREE:
-		script_PlayerState_Free(sPlayer1);
+		script_PlayerState_Free();
 		break;
-	case PLAYERSTATE.REPAIRING:
-		script_PlayerState_AttackStab(sPlayer1_idle, sPlayer1_attackSlash, sPlayer1_attackSlashHB);
+	case PLAYERSTATE.INTERACTING:
+		script_PlayerState_Interacting();
 		break;
-	case PLAYERSTATE.ACTIVATING:
-		script_PlayerState_AttackStab(sPlayer1_idle, sPlayer1_attackSlash, sPlayer1_attackSlashHB);
-		break;
-	case PLAYERSTATE.DYING:
-		invis = true;
-		script_PlayerState_Dying(sPlayer_dead);
-		break;
+	//case PLAYERSTATE.DYING:
+	//	invis = true;
+	//	script_PlayerState_Dying(sPlayer_dead);
+	//	break;
 	case PLAYERSTATE.DEAD:
 		instance_destroy(self);
 		break;
