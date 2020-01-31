@@ -10,6 +10,11 @@ if (instance_exists(oPlayer1)){
 	game_end();
 }
 
+
+global.collisionTileMap = layer_tilemap_get_id("Collision");
+//global.aiCollisionTileMap = layer_tilemap_get_id("AICollision");
+
+
 size_w = 512;
 size_h = 384;
 
@@ -17,6 +22,6 @@ camera_set_view_target(view_camera[0], main_player)
 camera_set_view_size(view_camera[0], size_w, size_h);
 camera_set_view_border(view_camera[0], size_w, size_h);
 
-window_set_fullscreen(true);
+//window_set_fullscreen(true);
 
 timer_tick_incrementCheck = 0;
